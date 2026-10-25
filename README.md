@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/hero.svg" width="100%" alt="Opaque Vault — private media, sealed on your device">
+  <img src="docs/hero.png" width="100%" alt="Opaque Vault — private photos and videos, sealed on your device">
 </p>
 
 <p align="center">
