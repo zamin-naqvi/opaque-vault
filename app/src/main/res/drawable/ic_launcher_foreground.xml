@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- restrained shadow inside the adaptive-icon safe zone -->
+    <path android:fillColor="#38000000" android:pathData="M55,20 L84,31 L84,53 C84,72 72,87 55,94 C38,87 26,72 26,53 L26,31 Z" android:translateY="2" />
+    <!-- shield -->
+    <path android:pathData="M54,18 L82,29 L82,51 C82,70 70,84 54,91 C38,84 26,70 26,51 L26,29 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="31" android:startY="23" android:endX="77" android:endY="88">
+                <item android:offset="0" android:color="#FFF3F7FF" />
+                <item android:offset="0.48" android:color="#FFC6D7FF" />
+                <item android:offset="1" android:color="#FF86A8FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- lock body -->
+    <path android:fillColor="#FF111A36" android:pathData="M40,49 Q40,45 44,45 L64,45 Q68,45 68,49 L68,68 Q68,72 64,72 L44,72 Q40,72 40,68 Z" />
+    <!-- shackle -->
+    <path android:fillColor="#00000000" android:strokeColor="#FF111A36" android:strokeWidth="5" android:strokeLineCap="round" android:pathData="M46,46 L46,41 C46,30 62,30 62,41 L62,46" />
+    <!-- keyhole -->
+    <path android:fillColor="#FFC6D7FF" android:pathData="M54,54 A4,4 0,1 0,54,62 A4,4 0,1 0,54,54 M52,61 L56,61 L57,67 L51,67 Z" />
+</vector>

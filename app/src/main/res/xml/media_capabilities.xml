@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The vault stores originals byte-for-byte (their SHA-256 must match before an original is deleted),
+    so Android must never transcode HEVC/HDR videos into a different file when this app reads them.
+-->
+<media-capabilities xmlns:android="http://schemas.android.com/apk/res/android">
+    <format android:name="HEVC" supported="true" />
+    <format android:name="HDR10" supported="true" />
+    <format android:name="HDR10Plus" supported="true" />
+    <format android:name="HLG" supported="true" />
+    <format android:name="DolbyVision" supported="true" />
+</media-capabilities>

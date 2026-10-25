@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Opaque Vault icon">
+  <defs>
+    <linearGradient id="bg" x1=".1" y1=".05" x2=".9" y2=".95"><stop stop-color="#172554"/><stop offset=".55" stop-color="#111b3a"/><stop offset="1" stop-color="#080d1c"/></linearGradient>
+    <linearGradient id="shield" x1=".2" y1=".1" x2=".8" y2=".9"><stop stop-color="#f3f7ff"/><stop offset=".48" stop-color="#c6d7ff"/><stop offset="1" stop-color="#86a8ff"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="5"/>
+  <path d="M256 84l134 53v105c0 91-57 158-134 192-77-34-134-101-134-192V137z" fill="url(#shield)"/>
+  <rect x="190" y="220" width="132" height="130" rx="20" fill="#111a36"/>
+  <path d="M218 220v-24c0-51 76-51 76 0v24" fill="none" stroke="#111a36" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="256" cy="267" r="19" fill="#c6d7ff"/><path d="M246 279h20l7 40h-34z" fill="#c6d7ff"/>
+</svg>
